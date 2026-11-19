@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background:
+        linear-gradient(rgba(225, 249, 250, .25), rgba(225, 249, 250, .25)),
+        url("https://f4.bcbits.com/img/a3675772885_10.jpg") center / cover fixed;
+}
+
+.site-navbar {
+    background-color: #0f2a3c;
+}
+
+.site-navbar .btn-primary {
+    border-color: #1a77b6;
+    background-color: #1a77b6;
+    color: #ffffff;
+}
+
+.site-navbar .btn-primary:hover,
+.site-navbar .btn-primary:focus-visible {
+    border-color: #9af4ed;
+    background-color: #9af4ed;
+    color: #0f2a3c;
+}
+
+.page-content {
+    width: 100%;
+    max-width: 1225px;
+    flex: 1 0 auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.page-heading {
+    text-shadow: 0 2px 8px rgba(0, 0, 0, .7);
+}
+
+.content-panel {
+    background-color: rgba(248, 252, 255, .92) !important;
+}
+
+.site-footer {
+    border-top: 4px solid #56d8e6;
+    background: rgba(15, 42, 60, .94);
+}
